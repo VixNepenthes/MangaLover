@@ -1,6 +1,6 @@
 package com.mangalovervv.admin;
 
-import static com.example.lib.RetrofitClient.getRetrofit;
+import static com.mangalovervv.RetrofitClient.getRetrofit;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,8 +12,8 @@ import android.widget.EditText;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.lib.interfaceRepository.Methods;
-import com.example.lib.model.CategoryModel;
+import com.mangalovervv.interfaceRepository.Methods;
+import com.mangalovervv.model.CategoryModel;
 import com.mangalovervv.R;
 
 import retrofit2.Call;

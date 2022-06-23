@@ -1,6 +1,6 @@
 package com.mangalovervv.admin;
 
-import static com.example.lib.RetrofitClient.getRetrofit;
+import static com.mangalovervv.RetrofitClient.getRetrofit;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -15,9 +15,10 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.text.HtmlCompat;
 
-import com.example.lib.interfaceRepository.Methods;
-import com.example.lib.model.ChapterModel;
+import com.mangalovervv.interfaceRepository.Methods;
+import com.mangalovervv.model.ChapterModel;
 import com.mangalovervv.R;
+
 
 import java.sql.Timestamp;
 

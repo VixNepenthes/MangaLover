@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/home"
+        android:id="@+id/menu_home"
+        android:layout_gravity="center"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:title="@string/category"
+        android:layout_gravity="center"
+        android:id="@+id/menu_category"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"/>
+    <item android:title="Admin" >
+        <menu >
+            <item
+                android:title="DS Thể Loại"
+                android:layout_gravity="center"
+                android:id="@+id/menu_admin_list_cate"/>
+            <item
+                android:title="DS Truyện"
+                android:id="@+id/menu_admin_list_story"/>
+        </menu>
+    </item>
+
+
+</menu>

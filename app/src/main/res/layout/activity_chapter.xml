@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChapterActivity">
+
+    <TextView
+        android:id="@+id/txtNameStory_ItemChap"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:onClick="goToBackChapter"
+        android:background="#11000000"
+        android:gravity="center_vertical"
+        android:textSize="15dp"
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+        android:text="Tên Truyện"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="14dp"
+        android:text="Số chương" />
+
+    <ListView
+        android:id="@+id/lsvChapter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

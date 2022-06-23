@@ -13,8 +13,8 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.mangalovervv.interfaceRepository.Methods;
-import com.mangalovervv.model.CategoryModel;
 import com.mangalovervv.R;
+import com.mangalovervv.model.CategoryModel;
 
 import retrofit2.Call;
 import retrofit2.Callback;

@@ -1,6 +1,6 @@
 package com.mangalovervv;
 
-import static com.example.lib.RetrofitClient.getRetrofit;
+import static com.mangalovervv.RetrofitClient.getRetrofit;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.lib.interfaceRepository.Methods;
-import com.example.lib.model.ChapterModel;
-import com.example.lib.model.StoryModel;
+import com.mangalovervv.interfaceRepository.Methods;
+import com.mangalovervv.model.ChapterModel;
+import com.mangalovervv.model.StoryModel;
 import com.mangalovervv.adapter.ChapterAdapter;
 
 import java.util.ArrayList;
@@ -67,7 +67,7 @@ public class ChapterActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //model into detail chapter
                 ChapterModel model = (ChapterModel) adapterView.getItemAtPosition(i);
-                Intent intent = new Intent(ChapterActivity.this, com.example.story_reading_app.ChapterDetailActivity.class);
+                Intent intent = new Intent(ChapterActivity.this, ChapterDetailActivity.class);
                 intent.putExtra("model", model);
 
                 //save offline

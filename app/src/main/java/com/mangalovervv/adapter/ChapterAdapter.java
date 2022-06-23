@@ -15,7 +15,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.lib.model.ChapterModel;
+import com.mangalovervv.model.ChapterModel;
 import com.mangalovervv.R;
 
 import java.text.DateFormat;

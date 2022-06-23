@@ -17,7 +17,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
-import com.example.lib.model.StoryModel;
+import com.mangalovervv.model.StoryModel;
 import com.mangalovervv.admin.ListChapterAdminActivity;
 import com.mangalovervv.R;
 

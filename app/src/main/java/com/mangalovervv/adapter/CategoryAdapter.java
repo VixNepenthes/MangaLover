@@ -13,7 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.lib.model.CategoryModel;
+import com.mangalovervv.model.CategoryModel;
 import com.mangalovervv.R;
 
 import java.util.ArrayList;

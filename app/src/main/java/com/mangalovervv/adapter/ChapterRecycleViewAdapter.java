@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.core.text.HtmlCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.lib.model.ChapterModel;
+import com.mangalovervv.model.ChapterModel;
 import com.mangalovervv.R;
 
 import java.util.List;

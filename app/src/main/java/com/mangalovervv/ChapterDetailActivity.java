@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.lib.model.ChapterModel;
+import com.mangalovervv.model.ChapterModel;
 import com.mangalovervv.adapter.ChapterRecycleViewAdapter;
 
 import java.util.ArrayList;

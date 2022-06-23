@@ -1,4 +1,4 @@
-package com.mangalovervv.fragment;
+package com.mangalovervv.admin.fragment;
 
 import static com.mangalovervv.RetrofitClient.getRetrofit;
 

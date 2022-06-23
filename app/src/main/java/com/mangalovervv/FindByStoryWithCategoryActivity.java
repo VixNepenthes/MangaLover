@@ -1,6 +1,6 @@
 package com.mangalovervv;
 
-import static com.example.lib.RetrofitClient.getRetrofit;
+import static com.mangalovervv.RetrofitClient.getRetrofit;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import android.widget.SearchView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.example.lib.interfaceRepository.Methods;
-import com.example.lib.model.CategoryModel;
-import com.example.lib.model.StoryModel;
+import com.mangalovervv.interfaceRepository.Methods;
+import com.mangalovervv.model.CategoryModel;
+import com.mangalovervv.model.StoryModel;
 import com.mangalovervv.adapter.StoryAdapter;
 
 import java.util.List;

@@ -1,11 +1,11 @@
 package com.mangalovervv.interfaceRepository;
 
 
-import com.example.lib.model.CategoryModel;
-import com.example.lib.model.ChapterModel;
-import com.example.lib.model.DeleteModel;
-import com.example.lib.model.StatusModel;
-import com.example.lib.model.StoryModel;
+import com.mangalovervv.model.CategoryModel;
+import com.mangalovervv.model.ChapterModel;
+import com.mangalovervv.model.DeleteModel;
+import com.mangalovervv.model.StatusModel;
+import com.mangalovervv.model.StoryModel;
 
 import java.util.List;
 

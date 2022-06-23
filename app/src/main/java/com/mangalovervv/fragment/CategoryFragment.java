@@ -1,6 +1,6 @@
 package com.mangalovervv.fragment;
 
-import static com.example.lib.RetrofitClient.getRetrofit;
+import static com.mangalovervv.RetrofitClient.getRetrofit;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,11 +14,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.example.lib.interfaceRepository.Methods;
-import com.example.lib.model.CategoryModel;
-import com.example.story_reading_app.FindByStoryWithCategoryActivity;
-import com.example.story_reading_app.R;
-import com.example.story_reading_app.adapter.CategoryAdapter;
+import com.mangalovervv.interfaceRepository.Methods;
+import com.mangalovervv.model.CategoryModel;
+import com.mangalovervv.FindByStoryWithCategoryActivity;
+import com.mangalovervv.R;
+import com.mangalovervv.adapter.CategoryAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

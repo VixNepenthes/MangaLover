@@ -14,10 +14,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.story_reading_app.admin.fragment.ListCategoryFragment;
-import com.example.story_reading_app.admin.fragment.ListStoryFragment;
-import com.example.story_reading_app.fragment.CategoryFragment;
-import com.example.story_reading_app.fragment.HomeFragment;
+import com.mangalovervv.admin.fragment.ListCategoryFragment;
+import com.mangalovervv.admin.fragment.ListStoryFragment;
+import com.mangalovervv.fragment.CategoryFragment;
+import com.mangalovervv.fragment.HomeFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.app_bar_search:
-                Intent intentSearch = new Intent(MainActivity.this, com.example.story_reading_app.SearchActivity.class);
+                Intent intentSearch = new Intent(MainActivity.this, SearchActivity.class);
                 startActivity(intentSearch);
                 break;
 

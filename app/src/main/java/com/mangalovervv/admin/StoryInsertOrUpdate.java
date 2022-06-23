@@ -1,7 +1,5 @@
 package com.mangalovervv.admin;
 
-
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -34,7 +32,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
@@ -125,7 +122,7 @@ public class StoryInsertOrUpdate extends AppCompatActivity {
     public void GetCategoryName(){
 
         Methods methods = getRetrofit().create(Methods.class);
-        Call<List<CategoryModel>> call = methods.getCategory();
+        retrofit2.Call<List<CategoryModel>> call = methods.getCategory();
         call.enqueue(new Callback<List<CategoryModel>>() {
             @Override
             public void onResponse(Call<List<CategoryModel>> call, Response<List<CategoryModel>> response) {

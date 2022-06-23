@@ -1,6 +1,6 @@
 package com.mangalovervv.admin;
 
-import static com.example.lib.RetrofitClient.getRetrofit;
+import static com.mangalovervv.RetrofitClient.getRetrofit;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,10 +13,10 @@ import android.widget.ListView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.lib.interfaceRepository.Methods;
-import com.example.lib.model.ChapterModel;
-import com.example.lib.model.DeleteModel;
-import com.example.lib.model.StoryModel;
+import com.mangalovervv.interfaceRepository.Methods;
+import com.mangalovervv.model.ChapterModel;
+import com.mangalovervv.model.DeleteModel;
+import com.mangalovervv.model.StoryModel;
 import com.mangalovervv.R;
 import com.mangalovervv.adapter.ChapterAdapter;
 
